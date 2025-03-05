@@ -1,1 +1,23 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.exe
+
+# Qt specific
+*.pro.user
+*.qrc
+*.qmlc
+*.jsc
+
+# VSOME/IP logs and configs
+logs/
+*.log
+
+# IDE specific
+*.swp
+.DS_Store
+.idea/
+.vscode/
 
