@@ -1,1 +1,21 @@
+{
+    "unicast": "127.0.0.1",
+    "apps": {
+        "DataServer": {
+            "instance": "0x01",
+            "service": "0x1234",
+            "reliable": "127.0.0.1:30509"
+        },
+        "DataClient": {
+            "instance": "0x02",
+            "service": "0x1234",
+            "reliable": "127.0.0.1:30510"
+        },
+        "UltrasonicService": {
+            "instance": "0x02",
+            "service": "0x1235",
+            "reliable": "127.0.0.1:30511"
+        }
+    }
+}
 
